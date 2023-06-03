@@ -14,9 +14,9 @@ export default function Navbar() {
           <Logo />
           <NavMenu />
           {/* If the user is logged in.*/}
-          {/*<User />*/}
+          <User />
           {/* If the user is not logged in.*/}
-          <GetStartedButton />
+          {/*<GetStartedButton />*/}
         </div>
       </nav>
     </>

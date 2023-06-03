@@ -1,0 +1,24 @@
+{
+  "menu": [
+    {
+      "name": "Home",
+      "link": "/",
+      "isBeta": false
+    },
+    {
+      "name": "Generate",
+      "link": "/generate",
+      "isBeta": true
+    },
+    {
+      "name": "Pricing",
+      "link": "/pricing",
+      "isBeta": true
+    },
+    {
+      "name": "About",
+      "link": "/about",
+      "isBeta": false
+    }
+  ]
+}
