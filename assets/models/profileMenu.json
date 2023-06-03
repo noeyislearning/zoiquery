@@ -1,0 +1,16 @@
+{
+  "menu": [
+    {
+      "name": "Dashboard",
+      "link": "/dashboard"
+    },
+    {
+      "name": "Settings",
+      "link": "/settings"
+    },
+    {
+      "name": "Sign Out",
+      "link": "/"
+    }
+  ]
+}
