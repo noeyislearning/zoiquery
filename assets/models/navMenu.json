@@ -1,23 +1,13 @@
 {
   "menu": [
     {
-      "name": "Home",
-      "link": "/",
-      "isBeta": false
-    },
-    {
       "name": "Generate",
-      "link": "/generate",
-      "isBeta": true
-    },
-    {
-      "name": "Pricing",
-      "link": "/pricing",
+      "link": "",
       "isBeta": true
     },
     {
       "name": "About",
-      "link": "/about",
+      "link": "about",
       "isBeta": false
     }
   ]
