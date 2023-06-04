@@ -33,7 +33,7 @@ export default function User() {
     <>
       <div className=" flex items-center">
         <div className="fixed">
-          <Image onClick={toggleDropdown} className="w-10 h-10 border border-black rounded-full cursor-pointer" width={500} height={500} src="" alt="useravatar"/>
+          <Image onClick={toggleDropdown} className="w-10 h-10 border border-black rounded-full cursor-pointer" width={500} height={500} src="https://images.unsplash.com/photo-1601412436009-d964bd02edbc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="useravatar"/>
             {isDropdownShown && (
               <div ref={dropdownRef} className="mt-2 absolute right-0 z-50 text-base list-none bg-white border border-black rounded-lg shadow-lg">
                 <div className="px-4 py-3">
