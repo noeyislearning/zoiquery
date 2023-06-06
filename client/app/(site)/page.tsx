@@ -4,7 +4,7 @@ import React from 'react'
 import { IoSendSharp, IoCopyOutline } from "react-icons/io5";
 
 /** Components */
-import AiResponseAvatar from "@/components/common/Avatars/AIResponseAvatar";
+import AIResponseAvatar from "@/components/common/Avatars/AIResponseAvatar";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
                 {/* Prompts */}
                 <div className="mb-4 py-4 px-4 bg-gray-800 rounded-md text-gray-300">
                   <div className="flex flex-row gap-5 items-start text-sm justify-between">
-                    <AiResponseAvatar />
+                    <AIResponseAvatar />
                     <div className="flex flex-col gap-2 w-full">
                       <div className="font-medium">Lorem Ipsum</div>
                       <div className="font-mono">
@@ -33,7 +33,7 @@ export default function Home() {
                 {/* Prompts */}
                 <div className="mb-4 py-4 px-4 bg-gray-800 rounded-md text-gray-300">
                   <div className="flex flex-row gap-5 items-start text-sm justify-between">
-                    <AiResponseAvatar />
+                    <AIResponseAvatar />
                     <div className="flex flex-col gap-2 w-full">
                       <div className="font-medium">Lorem Ipsum</div>
                       <div className="font-mono">
@@ -49,7 +49,7 @@ export default function Home() {
                 {/* Prompts */}
                 <div className="mb-4 py-4 px-4 bg-gray-800 rounded-md text-gray-300">
                   <div className="flex flex-row gap-5 items-start text-sm justify-between">
-                    <AiResponseAvatar />
+                    <AIResponseAvatar />
                     <div className="flex flex-col gap-2 w-full">
                       <div className="font-medium">Lorem Ipsum</div>
                       <div className="font-mono">
