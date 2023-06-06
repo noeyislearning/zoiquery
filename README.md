@@ -21,6 +21,11 @@ Whether you're a developer working on a web application, a data scientist analyz
 
 - Extensibility: Easily extend the functionality of the SQL Generator by adding custom query builders or integrating additional libraries, adapting it to your specific project requirements.
 
+## Snapshot
+
+![Zoiquery Snapshot](https://i.imgur.com/x5HsZZF.png)
+<h6 align="center">Version 1.0.0 (Sample UI)</h6>
+
 ## License
 
 This project is licensed under the MIT License. See the **[LICENSE](https://github.com/noeyislearning/zoiquery/blob/main/LICENSE)** file for details.
@@ -30,4 +35,4 @@ This project is licensed under the MIT License. See the **[LICENSE](https://gith
 If you have any questions, comments, or suggestions, feel free to contact me **[@noeyislearning](https://github.com/noeyislearning)**, all my socials are linked on my profile.
 
 
-###### README version 1.0.0
+###### README version 1.0.1
