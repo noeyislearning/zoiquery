@@ -4,8 +4,8 @@ import React from "react";
 import "@/assets/css/core.css"
 
 /** Fonts */
-import { Rubik } from "next/font/google"
-const globalFont = Rubik({ subsets: ['latin'] })
+import { Inter } from "next/font/google"
+const globalFont = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: "Zoiquery - SQL Generator",

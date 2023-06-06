@@ -1,26 +1,25 @@
 {
   "name": "zoiquery",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Zoiquery is a versatile and powerful repository that combines the strengths of TypeScript, Node.js, and the openai npm library. With this project, you can effortlessly generate SQL queries dynamically using the TypeScript programming language, running on the popular Node.js runtime.",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev": "concurrently -n \"CLIENT,SERVER\", -c \"blue,red\" \"npm run dev:client\" \"npm run dev:server\""
   },
-  "dependencies": {
-    "@types/node": "20.2.5",
-    "@types/react": "18.2.8",
-    "@types/react-dom": "18.2.4",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.42.0",
-    "eslint-config-next": "13.4.4",
-    "next": "13.4.4",
-    "postcss": "8.4.24",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.9.0",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.1.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeyislearning/zoiquery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noeyislearning/zoiquery/issues"
+  },
+  "homepage": "https://github.com/noeyislearning/zoiquery#readme",
+  "devDependencies": {
+    "concurrently": "^8.1.0"
   }
 }
