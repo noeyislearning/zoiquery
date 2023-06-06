@@ -14,6 +14,7 @@ export const metadata = {
 
 /** Components */
 import Navbar from "@/components/layouts/Navbar/Navbar";
+import Footer from "@/components/layouts/Footer/Footer";
 
 export default function RootLayout({
   children,
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={globalFont.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
