@@ -79,25 +79,13 @@ Follow the steps below to get started:
 Please ensure to keep your API key secret and never commit it to your version control system as it could lead to unauthorized access to your OpenAI account.
 
 
-
-
 ## Contribution
 
 This section is pending.
 
 ## Roadmap
 
-#### July 2023 - September 2023 (Pending)
-
-- [⬛] Transfer it a docker container.
-- [⬛] Deploy it on a cloud platform.
-  - [⬛] Both frontend and backend.
-  - [⬛] Add database (PostgresQL).
-- [⬛] Add login and signup functionality.
-- [⬛] Add a user dashboard.
-  - [⬛] Add a user profile page.
-  - [⬛] Add a user settings page.
-  - [⬛] Add a user usage page.
+Refer to the **[ROADMAP](https://github.com/noeyislearning/zoiquery/blob/main/ROADMAP.md)** file for more information.
 
 ## License
 
