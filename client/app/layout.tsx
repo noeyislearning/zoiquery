@@ -15,6 +15,7 @@ export const metadata = {
 /** Components */
 import Navbar from "@/components/layouts/Navbar/Navbar";
 import Footer from "@/components/layouts/Footer/Footer";
+import BackToTopButton from "@/components/common/Buttons/BackToTopButton";
 
 export default function RootLayout({
   children,
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={globalFont.className}>
         <Navbar />
         {children}
+        <BackToTopButton />
         <Footer />
       </body>
     </html>

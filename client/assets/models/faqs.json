@@ -1,0 +1,40 @@
+{
+  "faqs": [
+    {
+      "question": "What is Zoiquery?",
+      "answer": "Zoiquery is a repository that integrates TypeScript, Node.js, NextJS, and the OpenAI npm library. It functions as a complete kit for the programmatic construction of SQL statements, removing manual effort and improving efficiency. The OpenAI npm library provides access to advanced natural language processing, which aids in the conversion of human-readable queries into sophisticated and optimized SQL code."
+    },
+    {
+      "question": "What are some key features of Zoiquery?",
+      "answer": "Dynamic query creation using TypeScript. Integration with the OpenAI npm library to transform human-readable queries into SQL code. Compatibility with various well-known database systems. Comprehensive error management and validation mechanisms. Extensibility, allowing for custom query builders or additional library integrations"
+    },
+    {
+      "question": "What databases are compatible with Zoiquery?",
+      "answer": "Zoiquery integrates smoothly with renowned database systems like MySQL, PostgreSQL, SQLite, and more, ensuring compatibility across a variety of platforms."
+    },
+    {
+      "question": "How does Zoiquery handle errors and validation?",
+      "answer": "Although Zoiquery is still on a beta test it includes extensive error management and validation mechanisms to ensure the reliability and accuracy of your generated SQL queries."
+    },
+    {
+      "question": "How can I get started with Zoiquery?",
+      "answer": "You can get started with Zoiquery by following the instructions in the \"Usage\" section of the project description. This includes instructions for running the client and server in development mode, as well as steps for obtaining and setting up an API key from OpenAI."
+    },
+    {
+      "question": "What is the OpenAI npm library and how does it benefit Zoiquery?",
+      "answer": "The OpenAI npm library is a natural language processing tool that enables Zoiquery to transform human-readable queries into SQL code. This facilitates the expression of intentions naturally and reduces manual effort in creating SQL queries."
+    },
+    {
+      "question": "How can I contribute to Zoiquery?",
+      "answer": "The contribution section is pending. For any queries, suggestions, or feedback, you can reach out to @noeyislearning on GitHub."
+    },
+    {
+      "question": "What is the roadmap for Zoiquery?",
+      "answer": "You can refer to the ROADMAP file for information on future developments and plans for Zoiquery."
+    },
+    {
+      "question": "What is the license for Zoiquery?",
+      "answer": "Zoiquery is licensed under the MIT License. For more information, you can refer to the LICENSE file."
+    }
+  ]
+}
