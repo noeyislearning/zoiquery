@@ -55,45 +55,45 @@ export default function Home() {
 
 
   return (
-      <>
-        <section>
-          <ToastContainer />
-          <div className="pt-20 w-full max-w-screen flex justify-center">
-            <div className="p-4 mx-auto h-[50vh] w-fit lg:w-[80vw] overflow-y-auto">
-              <div className="flex flex-col justify-between">
-                {chat.length > 0 ?
-                  <ChatCard userMessages={chat}/> :
-                  <div className="text-center">Looks empty, wanna try?</div>
-                }
-              </div>
+    <>
+      <section>
+        <ToastContainer />
+        <div className="pt-20 w-full max-w-screen flex justify-center">
+          <div className="p-4 mx-auto h-[50vh] w-fit lg:w-[80vw] overflow-y-auto">
+            <div className="flex flex-col justify-between">
+              {chat.length > 0 ?
+                <ChatCard userMessages={chat}/> :
+                <div className="text-center">Looks empty, wanna try?</div>
+              }
             </div>
           </div>
-          {/* Input */}
-          <div className="pt-10 w-full max-w-screen flex justify-center">
-            <div className="p-4 w-full max-w-lg">
-              <div className="mb-4 text-xs text-center">This project is currently on a <span className="font-bold text-indigo-400">beta test</span>, it may produce inaccurate information.</div>
-              <div className="flex gap-2">
-                <input
-                    value={value}
-                    onChange={(e) => setValue(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter') {
-                        e.preventDefault();
-                        void getUserInput();
-                      }
-                    }}
-                    className="p-4 text-gray-300 font-normal text-sm bg-gray-800 rounded-md overflow-y-auto w-full" placeholder={"Ask SQL query here"}
-                />
-                <button
-                    onClick={() => void getUserInput()}
-                    className="p-4 bg-gradient-to-r from-violet-600 to-indigo-600 rounded-md"
-                >
-                  <IoSendSharp className="text-bold"/>
-                </button>
-              </div>
+        </div>
+        {/* Input */}
+        <div className="pt-10 w-full max-w-screen flex justify-center">
+          <div className="p-4 w-full max-w-lg">
+            <div className="mb-4 text-xs text-center">This project is currently on a <span className="font-bold text-indigo-400">beta test</span>, it may produce inaccurate information.</div>
+            <div className="flex gap-2">
+              <input
+                  value={value}
+                  onChange={(e) => setValue(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      void getUserInput();
+                    }
+                  }}
+                  className="p-4 text-gray-300 font-normal text-sm bg-gray-800 rounded-md overflow-y-auto w-full" placeholder={"Ask SQL query here"}
+              />
+              <button
+                  onClick={() => void getUserInput()}
+                  className="p-4 bg-gradient-to-r from-violet-600 to-indigo-600 rounded-md"
+              >
+                <IoSendSharp className="text-bold"/>
+              </button>
             </div>
           </div>
-        </section>
-      </>
+        </div>
+      </section>
+    </>
   )
 }
