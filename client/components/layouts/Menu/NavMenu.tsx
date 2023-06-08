@@ -13,7 +13,7 @@ export default function NavMenu({}: NavMenuItemsProps) {
 
   return (
     <>
-      <div className="hidden lg:flex items-center w-full lg:w-auto">
+      <div className="flex items-center w-full w-auto">
         <ul className="p-0 mt-0 flex flex-row gap-6 font-normal">
           {navMenuItems.map((menu, index) => (
           <li key={index}>

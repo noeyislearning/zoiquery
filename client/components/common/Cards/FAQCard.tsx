@@ -19,7 +19,7 @@ export default function FaqCard({} : FAQsItemsProps) {
         <div
             key={index}
             className="p-4 text-white border border-purple-500 hover:border-purple-700 rounded-md">
-          <div className="mb-4 flex gap-1 items-center">
+          <div className="mb-4 flex gap-1 items-start">
             <FiArrowUpRight className="w-7 h-7"/>
             <h3 className="text-lg font-medium ">
               {faq.question}
