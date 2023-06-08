@@ -10,8 +10,8 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-gray-950 fixed p-0 md:px-24 lg:px-36 py-4 bottom-0 left-0 z-20 w-full">
-        <div className="p-4 max-w-screen-xl flex flex-col-reverse lg:flex-row flex-wrap  gap-5 items-center justify-between mx-auto  text-gray-400">
+      <footer className="bg-gray-950 fixed p-0 md:px-0 lg:px-36 py-4 bottom-0 left-0 z-20 w-full">
+        <div className="p-4 max-w-screen-xl flex flex-col-reverse md:flex-row lg:flex-row flex-wrap  gap-5 items-center justify-between mx-auto  text-gray-400">
           <span className="text-sm sm:text-center">&copy; {currentYear} <Link href={"/"} className="font-bold text-violet-500">Zoiquery</Link>. All Rights Reserved.
           </span>
           <div className="flex gap-5 text-sm items-center">
