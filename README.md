@@ -29,29 +29,29 @@ It serves as a versatile solution for web developers, data scientists, or databa
 
 ## Usage
 
-NOTE: It can be run in development mode for both the client and server using the npm scripts provided. 
+NOTE: It can be run in development mode for both the client and server using the npm scripts provided.
 
 Follow the steps below to get started:
 
-1. **Client Development:** Run the client in development mode by executing the following command:
+1. **Installation:** First, navigate to the main project directory (`zoiquery`) and run the following command:
 
     ```bash
-    npm run dev:client
+    npm i
     ```
 
-   This command will navigate to the client directory and start the development server.
+   This command installs the main project dependencies.
 
 
-2. **Server Development:** To run the server in development mode, use the following command:
+2. **Concurrent Installation:** Next, install the dependencies for both client and server concurrently using the following command:
 
     ```bash
-    npm run dev:server
+    npm run dev:install
     ```
 
-   Similar to the client, this command will navigate to the server directory and start the server in development mode.
+   This command utilizes `concurrently` to install both the client and server dependencies at the same time.
 
 
-3. **Concurrent Development:** If you wish to run both the client and server simultaneously, Zoiquery provides a convenient script. Use the following command:
+3. **Concurrent Development:** After successful installation, you can run both the client and server in development mode concurrently using the following command:
 
     ```bash
     npm run dev
@@ -60,23 +60,41 @@ Follow the steps below to get started:
    This command utilizes `concurrently` to run both the client and server in development mode concurrently. The output from the client and server will be displayed in blue and red, respectively.
 
 
-4. **API Key Setup:** Zoiquery uses the OpenAI npm library, which requires an API key for access. Here are the steps to obtain and set up your API key:
+4. **Specific Development:** If you wish to run only the client or server in development mode, Zoiquery provides individual scripts for both. Use the following commands as needed:
 
-    - Visit the [OpenAI](https://openai.com) website and sign in or create an account if you don't already have one.
-    - Navigate to the API section in your dashboard.
-    - Generate a new API key, or use an existing one if available.
-    - Now, you need to add this API key to the Zoiquery application. Start by navigating to the server directory:
-        ```bash
-        cd server
-        ```
-    - Create a new file named `.env` in this directory.
-    - Open the `.env` file and add the following line, replacing `your_api_key` with the key you obtained from OpenAI:
-        ```bash
-        API_KEY=your_api_key
-        ```
-    - Save and close the `.env` file. Your application is now ready to use the OpenAI library.
+   - For the client:
+       ```bash
+       npm run dev:client
+       ```
+     This command will navigate to the client directory and start the development server.
+
+   - For the server:
+       ```bash
+       npm run dev:server
+       ```
+
+     This command will navigate to the server directory and start the server in development mode.
+   
+
+5. **API Key Setup:** Zoiquery uses the OpenAI npm library, which requires an API key for access. Here are the steps to obtain and set up your API key:
+
+   - Visit the [OpenAI](https://openai.com) website and sign in or create an account if you don't already have one.
+   - Navigate to the API section in your dashboard.
+   - Generate a new API key, or use an existing one if available.
+   - Now, you need to add this API key to the Zoiquery application. Start by navigating to the server directory:
+       ```bash
+       cd server
+       ```
+   - Create a new file named `.env` in this directory.
+   - Open the `.env` file and add the following line, replacing `your_api_key` with the key you obtained from OpenAI:
+       ```bash
+       API_KEY=your_api_key
+       ```
+   - Save and close the `.env` file. Your application is now ready to use the OpenAI library.
 
 Please ensure to keep your API key secret and never commit it to your version control system as it could lead to unauthorized access to your OpenAI account.
+
+
 
 
 ## Contribution

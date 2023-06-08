@@ -4,6 +4,9 @@
   "description": "Zoiquery is a versatile and powerful repository that combines the strengths of TypeScript, Node.js, and the openai npm library. With this project, you can effortlessly generate SQL queries dynamically using the TypeScript programming language, running on the popular Node.js runtime.",
   "main": "index.js",
   "scripts": {
+    "dev-i:client": "cd client && npm install",
+    "dev-i:server": "cd server && npm install",
+    "dev:install": "concurrently -n \"CLIENT,SERVER\", -c \"blue,red\" \"npm run dev-i:client && npm run dev-i:server\"",
     "dev:client": "cd client && npm run dev",
     "dev:server": "cd server && npm run dev",
     "dev": "concurrently -n \"CLIENT,SERVER\", -c \"blue,red\" \"npm run dev:client\" \"npm run dev:server\""
